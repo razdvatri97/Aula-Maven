@@ -1,5 +1,5 @@
-public enum FormaPagamento{
-    DINHEIRO,
-    CARTAO,
-    TODAS;
-}    
+
+
+public enum FormaPagamento {
+    DÉBITO, CREDITO, DINHEIRO;
+}
