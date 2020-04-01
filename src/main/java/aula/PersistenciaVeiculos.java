@@ -1,6 +1,6 @@
 import java.util.List;
 
-public class PersistenciaVeiculos extends Veiculo{
+public class PersistenciaVeiculos{
     private List<Veiculo> veiculos;
 
     public List<Veiculo> carregaVeiculos(){
