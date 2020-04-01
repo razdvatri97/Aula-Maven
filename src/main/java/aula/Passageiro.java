@@ -27,4 +27,12 @@ public class Passageiro{
     public FormaPagamento getFormaPagto() {
         return FormaPagto;
     } 
+
+    @Override
+    public String toString() {
+        return "Passageiro: " + Nome +
+                "\nCPF: " + CPF +
+                "\nFormaPagto: " + FormaPagto +
+                "\nNroCartao: " + NroCartao;
+    }
 }
